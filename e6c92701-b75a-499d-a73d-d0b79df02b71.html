@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>by.叡叡</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>恭喜你獲得代碼</h2>
+							<p><div id="div1"></div>秒後將導向兌換網站</p>
+							<ul class="actions special">
+							</ul>
+						</div>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script type="text/javascript">
+			var count = 10;
+			function countDown(){
+			document.getElementById("div1").innerHTML= count;
+			count -= 1;
+			if(count==0){
+			location.href="https://youtu.be/dQw4w9WgXcQ";
+			}
+			setTimeout("countDown()",1000);
+			}
+			countDown();
+</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
